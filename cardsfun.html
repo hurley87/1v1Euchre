@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="euchre.css">
+    
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+     <script src="card_fun.js"></script>
+     <script src="card_fun_deal.js"></script>
+     <script src="card_fun_player.js"></script>
+     <script src="card_fun_round.js"></script>
+  </head>
+  <body>
+    <div id="stats">
+      <div id="stats1">
+        <h2 id="p2Name">Mom</h2>
+        <h3>Points</h3><p><span id="p2Points">0</span></p>
+        <h3>Makes</h3><p><span id="p2Makes">0</span></p>
+        <h3>Euchres</h3><p><span id="p2Euchres">0</span></p>
+        <h3>Tricks</h3><p><span id="p2Tricks">0</span></p>
+      </div>
+      <div id="trumpRound">
+        <div id="round">
+        </div>
+          <h2>Round</h2>
+        <div>
+        </div id="trump">
+          <h2>Trump</h2>
+      </div>
+      <div id="stats2">
+        
+        <h3>Points</h3><p><span id="p1Points">0</span></p>
+        <h3>Makes</h3><p><span id="p1Makes">0</span></p>
+        <h3>Euchres</h3><p><span id="p1Euchres">0</span></p>
+        <h3>Tricks</h3><p><span id="p1Tricks">0</span></p>
+        <h2 id="p1Name">Dave</h2>
+      </div> 
+    </div>
+    <div id="game">
+      <div id="hand1"> 
+      </div>
+      <div id="instructions">
+        <button id="deal">Deal</button>
+      </div>
+      <div id="hand2">
+      </div>
+    </div>
+    <div id="results">
+      <div id="roundResults">
+        <h2>Dealer</h2>
+        <h3 id="dealer">na</h3>
+        <h2>Maker</h2>
+        <h3 id="maker">na</h3>
+      </div>
+      <div id="playArea">
+        <div class="card"></div>
+      </div>
+    </div>
+  </body>
+</html>
